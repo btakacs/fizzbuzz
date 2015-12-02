@@ -2,7 +2,7 @@ $(document).ready(function(){
 var enterNumber = prompt("Enter a Number");
 var convertNumber = +enterNumber;
 var fizzBuzzFunc = function(){
-	for(var n = 1; n < +convertNumber +1; n++){
+	for(var n = 1; n < convertNumber +1; n++){
 		if((n % 3 === 0) && (n % 5 === 0)){
 	document.write("Fizz Buzz " + n);
 	document.write("<br>");
