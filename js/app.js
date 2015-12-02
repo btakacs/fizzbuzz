@@ -33,5 +33,5 @@ else{
 	fizzBuzzFunc();
 }
 
-$("#numbers").append(fizzBuzzFunc());
+
 });
