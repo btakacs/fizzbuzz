@@ -4,19 +4,19 @@ var convertNumber = +enterNumber;
 var fizzBuzzFunc = function(){
 	for(var n = 1; n < +convertNumber +1; n++){
 		if((n % 3 === 0) && (n % 5 === 0)){
-	document.write("Fizz Buzz " + "" + n + "");
+	document.write("Fizz Buzz " + n);
 	document.write("<br>");
 	}
 		else if(n % 3 === 0){
-	document.write("Fizz " + "" + n + "");
+	document.write("Fizz " +  n);
 	document.write("<br>");
 	}
 		else if(n % 5 === 0){
-	document.write("Buzz " + "" + n + "");
+	document.write("Buzz " + n);
 	document.write("<br>");
 	}
 		else{
-	document.write("" + n + "");
+	document.write(n);
 	document.write("<br>");
 	}
 }
@@ -32,6 +32,5 @@ else if(convertNumber % 1 !== 0)
 else{
 	fizzBuzzFunc();
 }
-
 
 });
