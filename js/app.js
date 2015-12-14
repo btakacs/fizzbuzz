@@ -22,16 +22,16 @@ var fizzBuzzFunc = function(){
 }
 };
 
+
 if(isNaN(convertNumber)){
 	prompt("Please enter a number only!");
-}
-else if(convertNumber % 1 !== 0)
-{
+	}
+	else if(convertNumber % 1 !== 0)
+	{
 	prompt("Please enter a whole number only!");
-}
-else{
+	}
+	else{
 	fizzBuzzFunc();
 }
-
 
 });
